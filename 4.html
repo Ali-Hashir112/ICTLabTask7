@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 4</title>
+</head>
+<body>
+<h1>Click Counter</h1>
+<button onclick="countClicks()">Click Me</button>
+<p id="count">Clicks: 0</p>
+
+<script>
+var clicks = 0;
+
+function countClicks() {
+    clicks = clicks + 1;
+    document.getElementById("count").innerHTML = "Clicks: " + clicks;
+}
+</script>
+</body>
+</html>
